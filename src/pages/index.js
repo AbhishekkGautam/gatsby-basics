@@ -1,12 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
+import Layout from "../components/Layout"
 
 const index = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <Link to="/blog">Blog Page</Link>
-    </div>
+    <Layout>
+      <h1 style={{ color: "red", textTransform: "uppercase" }}>Hello World!</h1>
+    </Layout>
   )
 }
 
