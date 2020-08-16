@@ -2,8 +2,14 @@ import React from "react"
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Hello from footer.</h1>
+    <div
+      style={{
+        textAlign: "center",
+        backgroundColor: "dodgerblue",
+        marginTop: 50,
+      }}
+    >
+      <p style={{ padding: "2rem" }}>Hello from footer.</p>
     </div>
   )
 }
